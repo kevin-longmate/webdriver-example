@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "target": "ES5",
+    "lib": ["ES2017", "ES2018"],
+    "types": ["node", "webdriverio/sync", "@wdio/mocha-framework"],
+    "noEmit": true,
+    "sourceMap": true,
+    "allowJs": false
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
